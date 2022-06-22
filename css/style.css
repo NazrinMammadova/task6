@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+a{
+    text-decoration: none;
+}
+.container{
+    padding: 0 4rem;
+}
+
+header{
+  position: fixed;
+  width: 100%;
+    padding: 20px 0;
+     /* z-index: 3;  */
+}
+ 
+
+        
+.all{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}    
+
+.right a{
+    color: white;
+    font-weight: bold;
+font-size: 20px;
+margin-left: 20px;
+transition: 0.4s;
+
+}
+
+.right a:hover{
+color: orange;
+}
+
+#First{
+    background-image:url(https://www.simbrella.com/site/assets/files/1040/cover.jpg) ;
+    background-position: center;
+    background-size: cover;
+    padding: 18rem 0;
+ /* position: relative; */
+    /* z-index: 2;  */
+}
+
+#First .first-text h1{
+   color: white;
+   font-size: 25px;
+   font-weight: bold;
+   margin-bottom: 30px;
+}
+#First .first-text p{
+    color: white;
+    text-align: start;
+    font-weight: bold;
+}
+
+ /* .overlay{ 
+     width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0.4;
+position: absolute;
+  z-index: 1;
+}  */
+
+
+.all-second{
+    padding: 100px;
+}
+
+.second-top h2{
+    color: #2d3192;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.second-top a{
+    border: 4px solid grey;
+    border-radius: 9px;
+padding: 15px 60px;
+transition: 0.5s;
+
+}
+
+.second-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+   
+.second-top a:hover{
+    border-color:orange  ;
+}
+
+.second-bottom .box{
+    width: 33%;
+    border: 1px solid grey;
+}
+
+.second-bottom{
+    display: flex;
+    margin-top: 100px;
+    
+}
+
+.second-bottom .box{
+    margin: 25px;
+    padding: 70px 50px;
+    transition: 0.5s;
+}
+
+.second-bottom h3,p{
+    text-align: center;
+}
+
+.second-bottom .box:hover{
+transform: scale(1.1);
+}
+
+#third{
+background-image: url(https://www.simbrella.com/site/assets/files/1049/solutions_bg-1.jpg);
+background-size: cover;
+background-attachment: fixed;
+background-position:center;
+padding: 2rem 0;
+}
+
+
+
+.third-left span{
+    color: white;
+    font-size: 65px;
+    font-weight: bold;
+}
+
+
+.third-right{
+    width: 50%;
+    color: white;
+   background-color: #2d309257;
+  
+}
+
+/* .third-right ul li{
+width: 100%;
+height: 100%;
+
+    background-color: #2d309264;
+} */
+
+.third-all{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+
+
+.third-right ul li{
+    padding: 24px 50px;
+    font-size: 20px;
+    list-style: none ;
+    position: relative;
+    
+}
+
+.third-right ul li::before{
+ content: '';
+ bottom: 0;
+ left: 0;
+ width: 90% ;
+ height: 1px;
+ background-color:grey;
+ position: absolute;
+ margin: 10px;
+}
+
+.third-right ul li:last-child::before{
+ content: none;
+
+}
+
+.all-fourth{
+    padding: 13rem;
+    padding-top: 40px;
+}
+
+.fourth-top h2{
+    color: #2d3192;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.fourth-bottom{
+    display: flex;
+    justify-content: space-between;
+}
+
+.fourth-bottom .box{
+    width: 30%;
+    
+}
+
+
+.fourth-bottom h3{
+    color: #ff931e;
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 40px;
+}
+.fourth-bottom p{
+    color: #222;
+    font-weight:100 ;
+    text-align: start;
+}
